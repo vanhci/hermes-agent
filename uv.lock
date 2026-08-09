@@ -12,10 +12,8 @@ exclude-newer = "2026-07-25T17:35:33.789835356Z"
 exclude-newer-span = "P14D"
 
 [options.exclude-newer-package]
-vercel = false
-nemo-relay = false
-huggingface-hub = false
-h2 = false
+nemo-relay = "2026-08-08T03:18:11Z"
+h2 = "2026-08-04T11:45:09Z"
 
 [manifest]
 overrides = [{ name = "pynacl", specifier = ">=1.6,<1.7" }]
